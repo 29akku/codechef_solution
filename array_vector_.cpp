@@ -14,9 +14,23 @@ main()
   A.push_back(123);
   A.pop_back();
   A.pop_back();
-  //sort(A.begin(),A.end());
+ // To sort the vector 
+ // sort(A.begin(),A.end());
 
-  for(int x:A)
+ // To make 2D vector
+ vector<vector<int>> arr;
+ //this is how we can insert into 2D vector in c++
+ for(int i=0;i<3;i++)
+ { 
+   vector<int> temp;
+   for(int j=0;j<9;j++)
+   temp.push_back(i);
+   
+   arr.push_back(temp);
+ } 
+ 
+ 
+ for(int x:A)
   cout<<x<<" ";
   
   
