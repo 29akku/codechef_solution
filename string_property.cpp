@@ -27,5 +27,17 @@ int main()
    sort(string1.begin(),string1.end());
    cout<<string1;
     
+   // there are several methods to declare string ,following are methods:
+    // these are created in stack
+    char name[20]={'j','o','n','\0'};
+    char midname[]={'w','i','c','k','\0'};
+    char lastname[]="geller";
+   // while these is created in heap
+    char *naam="john";
+    
+    // string class library
+    //its a dunamic allocation
+    string str="samriddhi kumari";
+  
     return 0;
 }
